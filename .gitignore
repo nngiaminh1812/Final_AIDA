@@ -4,3 +4,6 @@ data/samples_data/*
 !data/samples_data/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+
+.env
