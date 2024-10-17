@@ -1,2 +1,3 @@
-data/*
-!data/**/.gitkeep
+data/raw/*
+data/processed/*
+data/samples_data/*
