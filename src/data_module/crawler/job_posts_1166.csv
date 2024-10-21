@@ -1,0 +1,4872 @@
+Type,Title,Services,Skills,Description,In4_project,In4_employment,Num_applicants,Applicants,Duration,Price,Link
+Nhận chào giá,"
+Viết ứng dụng marketplace mobile app cho iOS Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS  ","
+
+Tôi cần viết 1 social marketplace mobile app cho iOS với các tính năng sau đây: 
+- Người bán: post hình ảnh sản phẩm lên 
+- Người mua: 
++ dễ dàng tìm thấy sản phẩm cần tìm 
++ follow người bán 
++ thấy sản phẩm cần tìm qua Newsfeed 
++ share sản phẩm yêu thích để những người dùng khác đều thấy 
++ thanh toán qua app (ví dụ: qua Paypal hoặc Stripe) 
+Một số tính năng khác đã được viết để thêm vào app: 
++ Đăng nhập qua Facebook và email 
+Đã có high-fidelity wireframe để tham khảo. Ví dụ app tham khảo: Letgo.
+
+","
+
+ID dự án
+38083
+Ngày đăng
+
+                                            17/01/2020, 18:52                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                20.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nam                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+17/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        9                    
+","['/freelancer/chi-nguyen-77', '/freelancer/tran-van-tuan-11', '/freelancer/trinh-vo-mai', '/freelancer/nguyen-hoang-181', '/freelancer/dang-khoi-vu-tran', '/freelancer/doan-van-loi', '/freelancer/hoang-long-6', '/freelancer/tran-duc-lan']","
+                Trung bình:                14 ngày
+","
+
+                Thấp nhất:                11.111.111 VNĐ
+
+|
+
+                Trung bình:                28.263.889 VNĐ
+
+|
+
+                Cao nhất:                60.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/viet-ung-dung-marketplace-mobile-app-cho-ios
+Nhận chào giá,"
+Code Load File Google translate Offline Language Files Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+code  ","
+
+Chào các bạn, mình có tải được bộ package translate offline của app google Android, các bạn search [ Google translate Offline Language Files ] là biết ngay nó là gì, các gói này được dùng trong app Free của google, nhưng cái mình cần là dùng nó trên nền code khác [ C# , PHP , python ] 
+=> Mình cần đoạn code để load được package offline đó và dùng được chức năng dịch tiếng Anh sang Tiếng việt bằng 1 trong 3 ngôn ngữ trên 
+Cảm ơn !
+
+","
+
+ID dự án
+38082
+Ngày đăng
+
+                                            17/01/2020, 18:14                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                2.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Trung Nguyễn                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Binh Duong
+Tham gia
+26/07/2016
+Đã đăng
+
+
+                    30                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+",['/freelancer/dam-manh-hung'],"
+                Trung bình:                42 ngày
+","
+
+                Thấp nhất:                100.000.000 VNĐ
+
+|
+
+                Trung bình:                100.000.000 VNĐ
+
+|
+
+                Cao nhất:                100.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/code-load-file-google-translate-offline-language-files
+Nhận chào giá,"
+Làm ứng dụng mobile đơn giản bằng React Native. Hết hạn nhận chào giá
+
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+MySQL , 
+Laravel , 
+Mobile application , 
+React.js  ","
+
+Chào các bạn, 
+Mình đang tìm gấp một bận nào lập trình tốt 1 ứng đụng bằng React Native chỉ có 3 trang và 1 backoffice. 
+Ứng dụng này là một thư mục giúp người dùng có thể tìm kiếm và xem thông tin các công ty có sẵn trong cơ sở dữ liệu của app. 
+Backoffice sẽ được dùng để admin nhập dữ liệu các công ty. 
+Design đã có sẵn, chỉ cần làm theo 100% như trong design, sẽ có check Pixel Perfect, nên lưu ý design cần phải được làm hoàn toàn chỉnh chu. 
+Ứng dụng này sẽ có các chức năng sau: 
+- Chức năng tìm kiếm (sẽ có 1 thanh tìm kiếm ở trang home) 
+Các trang của ứng dụng: 
+- Trang home 
+- Trang kết quả tìm kiếm công ty 
+- Trang giới thiệu, thông tin công ty 
+Yêu cầu: 
+- Lập trình tốt và thành thạo React Native 
+- Biết về Laravel, và Laravel Voyager là một ưu điểm 
+- Thành thạo Mysql 
+Thời gian dự kiến: 
+- Hoàn thành dự án trước tết (tầm 5 ngày) 
+Các bạn nào thấy sẽ hoàn thành được trước tết thì nên nhận. 
+Chúc các bạn đón một năm mới yên vui và hạnh phúc.
+
+","
+
+ID dự án
+38074
+Ngày đăng
+
+                                            16/01/2020, 16:43                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                6.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hồ Châu Nguyên                
+
+
+
+
+
+CEO - JHO Tech
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Da Nang
+Tham gia
+01/06/2018
+Đã đăng
+
+
+                    45                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        5                    
+","['/freelancer/adward-nguyen-1', '/freelancer/dang-khoi-vu-tran', '/freelancer/nguyen-ngoc-tan-1', '/freelancer/vien-nguyen-9', '/freelancer/tuan-thanh-19']","
+                Trung bình:                5 ngày
+","
+
+                Thấp nhất:                6.000.000 VNĐ
+
+|
+
+                Trung bình:                8.400.000 VNĐ
+
+|
+
+                Cao nhất:                15.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/lam-ung-dung-mobile-don-gian
+Nhận chào giá,"
+Dây chuyền tự động hóa Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+Tự động hóa  ","
+
+Cần thiết kế + chế tạo 01 máy pha chế tự động 
+Sẽ phối hợp khảo sát dây chuyền thực tế 
+Pha chế bao gồm nước + đồ ăn 
+.......................................................................................................................
+
+","
+
+ID dự án
+38070
+Ngày đăng
+
+                                            16/01/2020, 15:11                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Cần Thơ            
+Ngân sách
+
+                25.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        toto Khong                
+
+
+
+làm việc tự do
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Can Tho
+Tham gia
+30/08/2016
+Đã đăng
+
+
+                    13                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/nguyen-trung-kien-83', '/freelancer/tran-duc-lan']","
+                Trung bình:                4 ngày
+","
+
+                Thấp nhất:                25.000.000 VNĐ
+
+|
+
+                Trung bình:                25.000.000 VNĐ
+
+|
+
+                Cao nhất:                25.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/day-chuyen-tu-dong-hoa
+Nhận chào giá,"
+Fix lỗi không build được app AR Unity sang Ios Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Test và kiểm tra lỗi 
+
+","
+Kỹ năng
+
+iOS , 
+3D  ","
+
+Mình có 1 app AR làm bằng unity 3D 2018.3, Hiện tại khi build dự án lên appstore thì báo lỗi là this build invalid, 
+email gởi về là TMS-90562: Invalid Bundle - One or more dynamic libraries that are referenced by your app are not present in the dylib search path. 
+bạn nào có khả năng giúp pm giúp mình nhé. Thanks
+
+","
+
+ID dự án
+38069
+Ngày đăng
+
+                                            16/01/2020, 13:45                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                1.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Chau Duong                
+
+
+
+
+
+2 năm kinh nghiệm web development,wordpress,bootstrap,html5,jquery,css3,nhiệt tình,năng động,chuyên nghiệp,giá cả phải chăng
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Da Nang
+Tham gia
+12/07/2015
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/cl-cosmos', '/freelancer/dang-khoi-vu-tran']","
+                Trung bình:                3 ngày
+","
+
+                Thấp nhất:                2.000.000 VNĐ
+
+|
+
+                Trung bình:                3.500.000 VNĐ
+
+|
+
+                Cao nhất:                5.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/fix-loi-khong-build-duoc-app-ar-unity-sang-ios
+Secret project,,,,,,,,,,,https://www.vlance.vn/viec-freelance/lap-trinh-mobile-app-va-thiet-ke-web
+Nhận chào giá,"
+Seekinh PHP developer Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Dựng website bán hàng 
+
+","
+Kỹ năng
+
+PHP , 
+Android , 
+responsive , 
+CodeIgniter  ","
+
+Hi 
+i am Looking for php developer to add some Features to an existing site dealing with the following technique: 
+1. browser push notification 
+2.make site responsive on mobile 
+3.deal with api 
+4.deal with smtp and cron job 
+5.take live picture through mobile and desktop webcam 
+payment is 80USD 
+but we plan to hire the selected freelancer for long term part time remote job 
+Thanks
+
+","
+
+ID dự án
+38053
+Ngày đăng
+
+                                            16/01/2020, 03:12                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        dan lan                
+
+
+
+engineer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+20/07/2018
+Đã đăng
+
+
+                    89                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/thanh-thao-nguyen-6', '/freelancer/tuan-thanh-19']","
+                Trung bình:                4 ngày
+","
+
+                Thấp nhất:                2.000.000 VNĐ
+
+|
+
+                Trung bình:                3.500.000 VNĐ
+
+|
+
+                Cao nhất:                5.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/seekinh-php-developer
+Nhận chào giá,"
+Lập trình ứng dụng di động bằng ngôn ngữ Flutter Hết hạn nhận chào giá
+
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+design , 
+Lập trình ứng dụng  ","
+
+Ưu tiên các bạn sinh viên sắp ra trường và muốn học hỏi, chỉ thuê các bạn sống tại TPHCM để gặp nhau trao đổi. 
+Mình cần lập trình một ứng dụng di động bằng ngôn ngữ lập trình Flutter, có sẵn design và các bạn dựa theo design để làm, các tính năng của ứng dụng cơ bản như sau: 
+- Trang home 
+- Trang tìm kiếm, autocomplete 
+- Danh sách tìm kiếm 
+- Chi tiết của kết quả tìm kiếm 
+- Danh sách lịch sử tìm kiếm 
+- Danh sách bookmark 
+- Và nhiều trang khác sẽ trao đổi thêm...
+
+","
+
+ID dự án
+38041
+Ngày đăng
+
+                                            14/01/2020, 14:51                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Sỹ Cường                
+
+
+
+
+
+Saler
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+31/05/2015
+Đã đăng
+
+
+                    15                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        4                    
+","['/freelancer/chau-ngoc-nguyen', '/freelancer/dang-khoi-vu-tran', '/freelancer/tung-pham-thanh-5', '/freelancer/nguyen-ngoc-tan-1']","
+                Trung bình:                10 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                12.250.000 VNĐ
+
+|
+
+                Cao nhất:                15.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/lap-trinh-ung-dung-tu-dien-bang-ngon-ngu-flutter
+Nhận chào giá,"
+Tạo ứng dụng ID facebook Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+",,"
+
+Cần làm ID ứng dụng cho facebook các quyền quản lý pages, info user, groups, profile để làm phần mềm facebook đăng bài tự động, chatbot,....càng nhiều quyền càng tốt. Bạn nào làm được và hướng dẫn được thì ới mình nhé .
+
+","
+
+ID dự án
+38052
+Ngày đăng
+
+                                            15/01/2020, 14:16                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                2.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Thái Sơn                
+
+
+
+
+
+Trưởng nhóm kỹ thuật
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Thai Binh
+Tham gia
+26/07/2017
+Đã đăng
+
+
+                    2                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/tao-ung-dung-id-facebook-2
+Nhận chào giá,"
+SEO cho website Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Tối ưu SEO cho trang web 
+
+","
+Kỹ năng
+
+SEO  ","
+
+_ Mình sắp tiến hành xây dựng một website giống tidy.vn và cần một SEO chuyên nghiệp để tối ưu hóa kết quả tìm kiếm cho mỗi dịch vụ bên mình sẽ triển khai. 
+_ Mình cần một kế hoạch hoàn chỉnh, các bước đi và cam kết về kết quả có thể kiểm chứng từ ứng viên. 
+_ Có thể chia project thành nhiều giai đoạn và loại hình dịch vụ, khi đạt được kết quả đã cam kết thì bên mình sẽ thanh toán theo từng giai đoạn. 
+_ Có thể làm từ xa và liên hệ với lead front-end bên mình qua skype hoặc các phương tiện giao tiếp online khác.
+
+","
+
+ID dự án
+38048
+Ngày đăng
+
+                                            15/01/2020, 13:25                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                5.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nguyễn Thành Đạt                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+15/01/2020
+Đã đăng
+
+
+                    4                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/bao-hoang-2', '/freelancer/chi-nguyen-77']","
+                Trung bình:                3 ngày
+","
+
+                Thấp nhất:                1.000.000 VNĐ
+
+|
+
+                Trung bình:                3.000.000 VNĐ
+
+|
+
+                Cao nhất:                5.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/seo-cho-website-2
+Nhận chào giá,"
+Thiết kế app vận chuyển giống viettel post Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+",,"
+
+App Vận chuyển đơn giản gồm chỉ có 2 phần app mobile và website cho admin 
+App Mobile chỉ cần 
+ - Giao diện cho người dùng nhập form gửi hàng 
+- Giao diện cho người dùng tracking đơn hàng đó 
+- Giao diện cho người dùng đăng nhập vào bằng facebook 
+Giao diện admin chỉ cần 
+-Giao diện thấy được thông tin khách hàng gửi hàng 
+-Giao diện tracking: bên admin bấm đã lấy hàng là bên app mobile báo cho khách đã lấy hàng. 
+** form như hình.
+
+","
+
+ID dự án
+38045
+Ngày đăng
+
+                                            15/01/2020, 08:44                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                9.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nguyễn Tiến Phát                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+19/12/2019
+Đã đăng
+
+
+                    4                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        5                    
+","['/freelancer/trinh-vo-mai', '/freelancer/chi-nguyen-77', '/freelancer/doan-van-loi', '/freelancer/hoang-long-6', '/freelancer/adward-nguyen-1']","
+                Trung bình:                14 ngày
+","
+
+                Thấp nhất:                30.000.000 VNĐ
+
+|
+
+                Trung bình:                37.000.000 VNĐ
+
+|
+
+                Cao nhất:                50.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/thiet-ke-app-van-chuyen-giong-viettel-post
+Nhận chào giá,"
+Phần mềm Quản lí dự án Winform Hết hạn nhận chào giá
+
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+Quản lí dự án  ","
+
+- Tôi cần viết 1 phần mềm quản lí dự án bằng C# winform và kết nối cơ sở dữ liệu local. 
+- Cá nhân hoặc nhóm ở Cần Thơ hoặc TP.HCM đều có thể apply. 
+- Thu nhập: 12.000.000 vnd. 
+- Thời gian thực hiện trong vòng 2-4 tuần. 
+- Yêu cầu dự án xem trong ảnh đính kèm. 
+- Có thể liên hệ trực tiếp face hongyen.nguyenthi.54966
+
+","
+
+ID dự án
+38033
+Ngày đăng
+
+                                            13/01/2020, 21:59                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                12.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nguyễn Thanh Nhựt                
+
+
+
+Application programmers
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+07/09/2018
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        9                    
+","['/freelancer/the-quyet-nguyen-1', '/freelancer/chi-nguyen-77', '/freelancer/nguyen-quoc-tiec', '/freelancer/nguyen-duc-ngoc-hoang', '/freelancer/le-van-thu-2', '/freelancer/pham-minh-cong-3', '/freelancer/le-van-luong']","
+                Trung bình:                15 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                11.285.714 VNĐ
+
+|
+
+                Cao nhất:                13.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/phan-mem-quan-li-du-an-winform
+Nhận chào giá,"
+Cần convert file code Mysql sang Mysqli hoặc PDO Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Xử lý dữ liệu 
+
+","
+Kỹ năng
+
+MySQL , 
+PHP , 
+code  ","
+
+Do nhu cầu nâng cấp lên PHP 7 nên mình muốn convert lại file lệnh Mysql cũ sang Mysqli hoặc PDO. File nhỏ chỉ có vài lệnh cơ bản khoảng 500 dòng code. Liên lạc trực tiếp zalo mình để deal nhanh hơn nha: 0.8.9.8.8.3.6.6.3.8 
+Yêu cầu: 
+- Không thay đổi cấu trúc của Class. 
+- Không thay đổi cấu trúc giá trị trả về.
+
+","
+
+ID dự án
+38043
+Ngày đăng
+
+                                            14/01/2020, 20:05                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                500.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Dao Duy Khanh                
+
+
+
+
+
+Lập trình viên Web PHP - Thiết kế ứng dụng di động
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Hai Duong
+Tham gia
+17/11/2016
+Đã đăng
+
+
+                    16                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/can-convert-file-code-mysql-sang-mysqli-hoac-pdo
+Nhận chào giá,"
+Tool request ID qua google sau đó nhận lại các trường hợp chuẩn rồi lưu lại Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+code  ","
+
+Tool request ID qua google sau đó nhận lại các trường hợp chuẩn rồi lưu lại . Hiện mình cần code 1 tool bằng ngôn ngữ gì cũng được , miễn là thuận tiện cho việc của mình và hiệu quả công việc cao 
+Mọi chi tiết liên hệ mình : 
+https://www.facebook.com/Top.Act(Chấm)Kyra 
+Zalo : 097460322Ba
+
+","
+
+ID dự án
+38039
+Ngày đăng
+
+                                            14/01/2020, 10:36                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                2.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Vũ Trung Thành                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+05/04/2018
+Đã đăng
+
+
+                    4                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/tool-request-id-qua-google-sau-do-nhan-lai-cac-truong-hop-chuan-roi-luu-lai
+Nhận chào giá,"
+Tuyển gấp Scala Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Cài đặt / Cấu hình server 
+
+",,"
+
+Chào các bạn, 
+Mình đang cần tuyển gấp freelancer biết scala. liên hệ với mình 
+[Được ẩn bởi vlance.vn]
+
+","
+
+ID dự án
+38037
+Ngày đăng
+
+                                            14/01/2020, 06:37                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hoàng Tùng                
+
+
+
+
+
+web developer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+14/07/2015
+Đã đăng
+
+
+                    59                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/tuyen-gap-scala
+Nhận chào giá,"
+Fix a Bug on webrtc conference call website Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Cài đặt / Cấu hình server 
+
+","
+Kỹ năng
+
+Javascript , 
+Node.js , 
+React.js  ","
+
+Hi 
+i want to fix some bugs on my conference video call website 
+the bug appear when i have more than 4 users on different network 
+i also planning to give several task for the developer selected 
+we will hire you for long term for part time remote job 
+if you follow our budget 
+and i am planning to pay for this task 40 USD 
+if work perfectly with 10 users on each room 
+Thanks
+
+","
+
+ID dự án
+38036
+Ngày đăng
+
+                                            13/01/2020, 22:58                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        dan lan                
+
+
+
+engineer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+20/07/2018
+Đã đăng
+
+
+                    89                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/fix-a-bug-on-webrtc-conference-call-website-9
+Nhận chào giá,"
+Lập trình game 2D cho Android Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết game di động 
+
+","
+Kỹ năng
+
+Adobe Photoshop , 
+Android , 
+2D  ","
+
+- Tôi là nhà thiết kế game và cần một bạn biết lập trình game 2D để chạy trên nền Android 
+- Mọi thiết kế tính toán, âm thanh và đồ họa do tôi lựa chọn, các bạn chỉ cần tạo ra file apk để upload lên CH Play. 
+- Game 2D với đồ họa và game play đơn giản, có thể lựa chọn nhiều ngôn ngữ lập trình hay engine khác nhau để hoàn thành
+
+","
+
+ID dự án
+38018
+Ngày đăng
+
+                                            13/01/2020, 11:01                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                8.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Le Xuan Dong                
+
+
+
+Chuyên viên hỗ trợ khách hàng  - Kỹ sư cơ khí
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+20/07/2017
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        6                    
+","['/freelancer/dong-8', '/freelancer/ho-nguyen-bao']","
+                Trung bình:                9 ngày
+","
+
+                Thấp nhất:                8.000.000 VNĐ
+
+|
+
+                Trung bình:                8.000.000 VNĐ
+
+|
+
+                Cao nhất:                8.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/lap-trinh-game-2d-cho-android-5
+Nhận chào giá,"
+Thiết kế website marketing cho sản phẩm Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Dựng website bán hàng 
+
+","
+Kỹ năng
+
+Bootstrap , 
+HTML , 
+Adobe Photoshop , 
+Node.js , 
+Cắt HTML/CSS  ","
+
+Mình cần một bạn lập trình fullstack một trang web marketing cho sản phẩm vải. 
+Các chức năg chính: 
++ Tự độ rescale ứng với từng độ phân giải 
++ Languages : English, Japanese, Korean, ... Ứng với mỗi ngôn ngữ, theme cần thay đổi ( English: đồng hồ bigben -> Japanese: hoa anh đào, ...) => sẽ trao đổi thêm 
++ Các mục như : Products, activities, Technology, Facilities có khả năng thêm mới (sản phẩm, hoạt động, tin công nghệ, hình ảnh thiết bị) và khả năng xóa. 
+Bạn nào chào giá thì ước chừng khoảng thời gian hoàn thành nhé
+
+","
+
+ID dự án
+38014
+Ngày đăng
+
+                                            13/01/2020, 10:25                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Bùi Thiên Ân                
+
+
+
+Bùi Thiên Ân.
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+26/12/2019
+Đã đăng
+
+
+                    4                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        8                    
+","['/freelancer/hiep-nguyen-1020', '/freelancer/le-dinh-ky', '/freelancer/dinhtuqui1601-qui', '/freelancer/dottp-tech', '/freelancer/tran-van-tuan-11', '/freelancer/le-quoc-viet-1', '/freelancer/trueday', '/freelancer/adward-nguyen-1']","
+                Trung bình:                24 ngày
+","
+
+                Thấp nhất:                20.000.000 VNĐ
+
+|
+
+                Trung bình:                49.000.000 VNĐ
+
+|
+
+                Cao nhất:                72.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/thiet-ke-website-marketing-cho-san-pham
+Nhận chào giá,"
+Xây dựng mobile App cho website Wordpress Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS , 
+Wordpress , 
+Android , 
+Tuyển dụng  ","
+
+Hiện nay mình có 1 website phát triển trên nền tảng wordpress. Website này làm cầu nối giữa nhà tuyển dụng và các ứng viên (gần giống careerbuilder). Mình cần xây dựng 1 mobile app android và iOs cho website này với yêu cầu như sau: 
+- Có thể sử dụng WebView để hiển thị nội dung website (hoặc giải pháp khác tuỳ nhà phát triển lựa chọn) 
+- X/d hệ thống push notification cho các máy có cài đặt ứng dụng 
+- X/d hệ thống push notification khi có bài viết mới trên một danh mục nào đó (optional)==> báo giá riêng
+
+","
+
+ID dự án
+38003
+Ngày đăng
+
+                                            12/01/2020, 22:51                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                9.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Duc Nguyen Ho Minh                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+11/12/2017
+Đã đăng
+
+
+                    2                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        5                    
+","['/freelancer/pham-tai-4', '/freelancer/victo-nguyen', '/freelancer/doan-van-loi', '/freelancer/dang-khoi-vu-tran', '/freelancer/dam-manh-hung']","
+                Trung bình:                10 ngày
+","
+
+                Thấp nhất:                9.000.000 VNĐ
+
+|
+
+                Trung bình:                9.400.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/xay-dung-mobile-app-cho-website-wordpress
+Nhận chào giá,"
+WAIEL VN - Webapps Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+",,"
+
+Công ty WAIEL https://www.waiel.fr/ trụ sở ở Pháp vừa mở chi nhánh ở Việt Nam để offshoring các dự án truyền thông. Các project đa dạng từ website, webapp, plugin wordpress, forex,... 
+Hiện công ty đang cần các freelancer hợp tác lâu dài cho các ngôn ngữ : 
+- PHP : wordpress, laravel, symfony 
+- ReactJS, React Native 
+- NodeJS 
+Project đầu tiên là viết lại website cho công ty với những chức năng nhằm nhận các yêu cầu của khách hàng và gửi báo giá nhanh. 
+Thu nhập tính theo giờ và trình độ (5-20$/h)
+
+","
+
+ID dự án
+38001
+Ngày đăng
+
+                                            12/01/2020, 17:36                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                20.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hieu Tri Nguyen Phan                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Toàn quốc
+Tham gia
+12/01/2020
+Đã đăng
+
+
+                    2                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        12                    
+","['/freelancer/iq-win-win', '/freelancer/nguyen-anh-tu-26', '/freelancer/cong-ty-tnhh-cong-nghe-boot', '/freelancer/dottp-tech', '/freelancer/le-dinh-ky', '/freelancer/nguyen-duong-li-1', '/freelancer/hung-nguyen-234', '/freelancer/tran-van-tuan-11', '/freelancer/tuan-thanh-19', '/freelancer/le-quoc-viet-1', '/freelancer/tran-tho-4', '/freelancer/adward-nguyen-1']","
+                Trung bình:                9 ngày
+","
+
+                Thấp nhất:                200.000 VNĐ
+
+|
+
+                Trung bình:                17.600.000 VNĐ
+
+|
+
+                Cao nhất:                20.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/waiel-vn-webapps-2
+Nhận chào giá,"
+WAIEL VN - Webapps Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+PHP , 
+Symfony , 
+Wordpress , 
+Laravel , 
+Truyền thông , 
+Plugin  ","
+
+Công ty WAIEL https://www.waiel.fr/ trụ sở ở Pháp vừa mở chi nhánh ở Việt Nam để offshoring các dự án truyền thông. Các project đa dạng từ website, webapp, plugin wordpress, forex,... 
+Hiện công ty đang cần các freelancer hợp tác lâu dài cho các ngôn ngữ : 
+- PHP : wordpress, laravel, symfony 
+- ReactJS, React Native 
+- NodeJS 
+Project đầu tiên là viết lại website cho công ty với những chức năng nhằm nhận các yêu cầu của khách hàng và gửi báo giá nhanh. 
+Thu nhập tính theo giờ và trình độ (5-20$/h)
+
+","
+
+ID dự án
+37999
+Ngày đăng
+
+                                            12/01/2020, 17:33                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                20.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hieu Tri Nguyen Phan                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Toàn quốc
+Tham gia
+12/01/2020
+Đã đăng
+
+
+                    2                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        5                    
+","['/freelancer/iq-win-win', '/freelancer/tuan-nguyen-153', '/freelancer/tran-duc-lan', '/freelancer/luu-thanh-tung-1', '/freelancer/phamhuyhoang']","
+                Trung bình:                8 ngày
+","
+
+                Thấp nhất:                20.000.000 VNĐ
+
+|
+
+                Trung bình:                20.000.000 VNĐ
+
+|
+
+                Cao nhất:                20.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/waiel-vn-webapps
+Nhận chào giá,"
+Phần mềm quét thông tin công ty ; số điện thoại , mail, tên công ty Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+Lập trình phần mềm  ","
+
+Chào mọi người ! mình cần một phần mềm quét thông tin của các công ty từ link trang web nước ngoài ( Nhật Bản ) để tự động trích xuất ra số điện thoại , địa chỉ mail , tên công ty, hay tên giám đốc... bên mình sẽ hỗ trợ phần tiếng Nhật . Rất mong mọi người giúp đỡ !
+
+","
+
+ID dự án
+37998
+Ngày đăng
+
+                                            12/01/2020, 17:12                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                4.890.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hoàng Thanh Tùng                
+
+
+
+
+
+Trưởng nhóm
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Thua Thien - Hue
+Tham gia
+23/03/2018
+Đã đăng
+
+
+                    5                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        7                    
+","['/freelancer/vo-quyen-anh', '/freelancer/tk-soft', '/freelancer/smith-adam', '/freelancer/long-bui-van', '/freelancer/dam-manh-hung', '/freelancer/ho-nguyen-bao', '/freelancer/nguyen-minh-tung-7']","
+                Trung bình:                3 ngày
+","
+
+                Thấp nhất:                3.000.000 VNĐ
+
+|
+
+                Trung bình:                5.095.714 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/phan-mem-quet-thong-tin-cong-ty-so-dien-thoai-mail-ten-cong-ty
+Nhận chào giá,"
+Looking For PHP developer for long term Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Dựng website bán hàng 
+
+","
+Kỹ năng
+
+PHP , 
+Mobile application , 
+Android , 
+responsive , 
+CodeIgniter  ","
+
+Hi 
+i am Looking for php developer to add some Features to an existing site dealing with the following technique: 
+1. browser push notification 
+2.make site responsive on mobile 
+3.deal with api 
+4.deal with smtp and cron job 
+5.take live picture through mobile and desktop webcam 
+payment is 60USD 
+but we plan to hire the selected freelancer for long term part time remote job 
+Thanks
+
+","
+
+ID dự án
+37993
+Ngày đăng
+
+                                            12/01/2020, 01:11                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        dan lan                
+
+
+
+engineer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+20/07/2018
+Đã đăng
+
+
+                    89                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        1                    
+",['/freelancer/nguyen-minh-khoi-5'],"
+                Trung bình:                14 ngày
+","
+
+                Thấp nhất:                50.000.000 VNĐ
+
+|
+
+                Trung bình:                50.000.000 VNĐ
+
+|
+
+                Cao nhất:                50.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/looking-for-php-developer-for-long-term
+Nhận chào giá,"
+Ứng dụng Auto click cho ios Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS  ","
+
+Cần viết ứng dụng auto các thao tác trên IOS giống auto touch 
+cài đặt link server để Gửi request đến server. 
+Định kỳ 1 phút 1 lần gửi request đến link server đã khai báo để lấy dữ liệu text, 
+server trả về dữ liệu text + kịch bản chạy. app nhận dữ liệu và thao tác theo kịch bản, chạy xong kịch bản sẽ gửi thông báo về 1 đường link đã định nghĩa trên server 
+định nghĩa 1 số các thao tác trong kịch bản 
+delay thời gian giữa mỗi thao tác click 
+các thao tác như: 
+Click theo vị trí pixel, paste dữ liệu text, link, copy, phím bấm enter.. các thao tác cơ bản trên giao diện 
+mình mô tả cơ bản ở đây, các bạn có thể làm dc mình trao đổi chi tiết hơn
+
+","
+
+ID dự án
+37992
+Ngày đăng
+
+                                            11/01/2020, 22:50                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                20.000.000đ                                                             - 21.000.000đ                                                
+Hình thức làm việc
+
+                                                                Làm online                                                        
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Trần Toản                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+16/12/2018
+Đã đăng
+
+
+                    18                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        4                    
+","['/freelancer/chau-ngoc-nguyen', '/freelancer/luu-viet-son', '/freelancer/dang-khoi-vu-tran', '/freelancer/tran-duc-lan']","
+                Trung bình:                10 ngày
+","
+
+                Thấp nhất:                2.000.000 VNĐ
+
+|
+
+                Trung bình:                15.500.000 VNĐ
+
+|
+
+                Cao nhất:                20.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/ung-dung-auto-click-cho-ios
+Nhận chào giá,"
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+C# , 
+Python  ","
+
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel Viết tool desktop trích dữ liệu excel 
+Viết tool desktop trích dữ liệu excel
+
+","
+
+ID dự án
+37991
+Ngày đăng
+
+                                            11/01/2020, 21:05                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                7.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        nguyen vinh                
+
+
+
+
+
+Project Manager
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+19/07/2019
+Đã đăng
+
+
+                    10                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/tran-minh-duc-24', '/freelancer/huynh-tuan-huy', '/freelancer/tuan-thanh-19']","
+                Trung bình:                5 ngày
+","
+
+                Thấp nhất:                7.000.000 VNĐ
+
+|
+
+                Trung bình:                8.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/detect-ket-qua-game-bai-va-lam-tool-alert-tuc-thi-khi-co-ket-qua-2
+Nhận chào giá,"
+CẦN TÌM BẠN FREELANCE SEO WEB BÁO NGƯỜI VIỆT TẠI ÚC Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+SEO website 
+
+","
+Kỹ năng
+
+.NET , 
+SEO  ","
+
+Dear mọi người, mình cần tìm 1 bạn freelancer SEO cho web người Việt tại Úc là VietUcNews.net. 
+Ai có thể nhận được thì giúp mình với nha. Mình cảm ơn nhiều!! Web đã viết được rất nhiều bài và có đội content lên bài viết liên tục. Mình cảm ơn nhiều.
+
+","
+
+ID dự án
+37989
+Ngày đăng
+
+                                            11/01/2020, 15:49                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nguyễn Sơn Tùng                
+
+
+
+
+
+Digital Marketing Strategist
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+01/03/2014
+Đã đăng
+
+
+                    56                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/nguyenhoang-quocvuong', '/freelancer/tran-quyet-3']","
+                Trung bình:                42 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/can-tim-ban-freelance-seo-web-bao-nguoi-viet-tai-uc
+Nhận chào giá,"
+Xây dựng mobile app trên nền tảng Android và IOS Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS , 
+Android  ","
+
+Cần tìm một bạn hoặc một team có thể lập trình mobile app trên nền tảng Android và IOS. Mức lương dự án sẽ theo thỏa thuận giữa hai bên sau khi bàn bạc chi tiết hơn về các tính năng trong app điện thoại.
+
+","
+
+ID dự án
+37986
+Ngày đăng
+
+                                            11/01/2020, 10:21                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                60.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Anh Tran Nhat                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+11/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        14                    
+","['/freelancer/le-dinh-ky', '/freelancer/tung-pham-thanh-5', '/freelancer/tinh-vu', '/freelancer/victo-nguyen', '/freelancer/tran-van-tuan-11', '/freelancer/trinh-vo-mai', '/freelancer/dang-khoi-vu-tran', '/freelancer/cl-cosmos', '/freelancer/phuong-nguyen-van', '/freelancer/hoang-long-6', '/freelancer/adward-nguyen-1', '/freelancer/huynh-tuan-huy', '/freelancer/dam-manh-hung', '/freelancer/doan-van-loi']","
+                Trung bình:                21 ngày
+","
+
+                Thấp nhất:                50.000.000 VNĐ
+
+|
+
+                Trung bình:                95.714.286 VNĐ
+
+|
+
+                Cao nhất:                200.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/xay-dung-mobile-app-tren-nen-tang-android-va-ios
+Nhận chào giá,"
+Tìm bạn hỗ trợ sửa lỗi CSS/JS thường xuyên Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Test và kiểm tra lỗi 
+
+","
+Kỹ năng
+
+CSS , 
+Javascript , 
+Wordpress  ","
+
+Hi các bạn, 
+Mình cần tìm một bạn hỗ trợ các vấn đề nhỏ về CSS/JS (và thi thoảng là WordPress) thường xuyên. 
+1. Hình thức làm việc 
+Mình gửi vấn đề, bạn báo thời gian, cuối tuần mình chốt lại thời gian bạn bỏ ra và gửi phí 250k/giờ (hoặc có thể thanh toán bất cứ lúc nào bạn muốn). 
+2. Công việc cụ thể 
+Giải đáp, hỗ trợ mình các vấn đề về CSS/JS. Hầu hết các vấn đề đều dưới 1 giờ. Ví dụ một số 
+Thêm JS để sticky product detail khi cuộn chuột 
+Sticky header khi cuộn chuột 
+Click Ảnh ra lightbox 
+Xóa scroll bar trên mobile 
+Đổi text Quantity 
+Tạo nền gradient cho button 
+... 
+Bạn nào hứng thú thì có thể báo giá ở dưới kinh nghiệm của các bạn, và thời gian trung bình xử lí các vấn đề trên, hoặc 4 task ở dưới. 
+Và đây có 4 task mình đang cần xử lí. Bạn có thể check và báo thời gian mình luôn. https://anotepad.com/notes/nx8kh2nb 
+Lưu ý: Mình sẽ từ chối tất cả báo giá cố tình đăng thông tin liên hệ vi phạm quy định của vLance.
+
+","
+
+ID dự án
+37984
+Ngày đăng
+
+                                            11/01/2020, 07:54                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                250.000đ                                                                
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Tuan P                
+
+
+
+
+
+Freelancer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Da Nang
+Tham gia
+22/11/2017
+Đã đăng
+
+
+                    47                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        6                    
+","['/freelancer/nguyen-xuan-67', '/freelancer/vien-nguyen-9', '/freelancer/nguyen-minh-khoi-5', '/freelancer/dung-nakedsnake', '/freelancer/anh-tran-4', '/freelancer/le-manh-hai']","
+                Trung bình:                2 ngày
+","
+
+                Thấp nhất:                50.000 VNĐ
+
+|
+
+                Trung bình:                308.333 VNĐ
+
+|
+
+                Cao nhất:                500.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/tim-ban-ho-tro-sua-loi-css-js-thuong-xuyen
+Nhận chào giá,"
+Mình cần gấp 1 ứng dụng android và ios làm mảng vay tiền online Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS , 
+App development , 
+Android , 
+Lập trình ứng dụng  ","
+
+Mình cần gấp 1 ứng dụng android và ios làm mảng vay tiền online 
+Có đầy đủ các chức năng : load app nhanh, thanh toán bằng momo và ck NH ,dk và dn .... 
+Mình k bit giá cả bao nhiu vì trc giờ chưa từng sở hữu app nào bao giờ nên cần bạn nào làm viek thật nghiêm túc 
+Mong sớm nhận dc phản hồi từ các CAO THỦ
+
+","
+
+ID dự án
+37981
+Ngày đăng
+
+                                            10/01/2020, 22:22                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                3.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Mít -Tờ Vũ                
+
+
+
+
+
+Chuyên gia viết lách
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Quang Binh
+Tham gia
+17/11/2018
+Đã đăng
+
+
+                    16                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/dang-khoi-vu-tran', '/freelancer/adward-nguyen-1', '/freelancer/tuan-thanh-19']","
+                Trung bình:                18 ngày
+","
+
+                Thấp nhất:                3.000.000 VNĐ
+
+|
+
+                Trung bình:                16.000.000 VNĐ
+
+|
+
+                Cao nhất:                25.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/minh-can-gap-1-ung-dung-android-va-ios-lam-mang-vay-tien-online
+Nhận chào giá,"
+SEO Excutive Hết hạn nhận chào giá
+",,"
+Kỹ năng
+
+SEO  ","
+
+Vị trí: SEO Excutive 
+Số lượng: 2 người 
+Địa điểm làm việc: Hà Nội 
+Thời gian làm việc: từ 8h đến 17h00, thứ 2 đến sáng thứ 7 (nghỉ vào ngày thứ 7 của tuần thứ 3 hàng tháng và Chủ nhật). 
+Mức lương: 4-15tr (thỏa thuận) 
+Kinh nghiệm: 2 năm 
+Trình độ học vấn: Cao đẳng 
+Mô tả công việc: 
+Triển khai hoạt động SEO Onpage theo bộ tiêu chuẩn được Training. 
+Triển khai xây dựng Backlink, PBN theo định hướng từ SEO Leader. 
+Triển khai xây dựng Signals theo định hướng từ SEO Leader. 
+Định kỳ triển khai SEO Audit theo tiêu chuẩn từ SEO Leader. 
+Tạo Entity theo yêu cầu. 
+Liên tục cập nhật, đo lường các chỉ số trong Webmaster Tool và báo cáo lên SEO Leader. 
+Yêu cầu: 
+Sẵn sàng học hỏi 
+Đã có kiến thức nền tảng về SEO 
+Đã có kinh nghiệm làm SEO. 
+Website: https://thegioidemviet.vn/
+
+","
+
+ID dự án
+37973
+Ngày đăng
+
+                                            10/01/2020, 16:01                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                4.000.000đ                                                             - 15.000.000đ                                                
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Thế Giới Đệm Việt                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+10/01/2020
+Đã đăng
+
+
+                    2                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-lam/seo-excutive
+Nhận chào giá,"
+ứng dụng remote desktop cho MacOS & IOS Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+iOS  ","
+
+- Có kinh nghiệm trong sử dụng Cmake để build Xcode project 
+- Từng làm qua hoặc có kiến thức về các remote desktop protocol (RDP, spice) 
+- Build ứng dụng trên cả MacOS và IOS 
+- Làm 1 app tương tự remote desktop dựa trên 2 protocol RDP và SPICE
+
+","
+
+ID dự án
+37967
+Ngày đăng
+
+                                            10/01/2020, 14:15                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                80.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Tươi Hà                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+27/12/2019
+Đã đăng
+
+
+                    7                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/ung-dung-remote-desktop-cho-macos-ios
+Nhận chào giá,"
+Ứng dụng Android kết nối đến máy chủ OpenVPN Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+Android  ","
+
+Mình cần làm một app Android sử dụng thư viện github.com/schwabe/ics-openvpn để kết nối đến máy chủ OpenVPN. 
+- Có form để nhập: địa chỉ máy chủ OpenVPN, tên tài khoản, mật khẩu. Drop box để lựa chọn kết nối UDP, TCP và mã tắt mở hóa kết nối. 
+Viết bằng Kotlin và tương thích từ Android 5 đến Android 10
+
+","
+
+ID dự án
+37961
+Ngày đăng
+
+                                            10/01/2020, 11:12                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                4.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Thanh Quy                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Toàn quốc
+Tham gia
+09/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/tran-van-tuan-11', '/freelancer/dang-khoi-vu-tran', '/freelancer/huynh-tuan-huy']","
+                Trung bình:                7 ngày
+","
+
+                Thấp nhất:                5.000.000 VNĐ
+
+|
+
+                Trung bình:                6.666.667 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/ung-dung-android-ket-noi-den-may-chu-openvpn
+Nhận chào giá,"
+Thiết kế phần mềm tổng hợp văn bản Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+Lập trình web , 
+Lập trình phần mềm  ","
+
+Thiết kế phần mềm tổng hợp văn bản, dựa theo các header - footer - Heading ..., cố định header - footer, thiết lập các mặc định Heading (người dùng có thể chọn các heading tùy ý) trong Microsoft Word, tổng hợp các đoạn văn bản thành một file theo một định dạng nhất định.
+
+","
+
+ID dự án
+37960
+Ngày đăng
+
+                                            10/01/2020, 11:10                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                5.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Dao Duy Thinh                
+
+
+
+
+
+Quản lý dự án, Điều phối dự án, Kỹ sư xây dựng, Chuyên viên kinh doanh,
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+30/09/2019
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/nguyen-van-truong-22', '/freelancer/soul-the-the-soul-of-the-stone', '/freelancer/huynh-tuan-huy']","
+                Trung bình:                5 ngày
+","
+
+                Thấp nhất:                4.500.000 VNĐ
+
+|
+
+                Trung bình:                4.666.667 VNĐ
+
+|
+
+                Cao nhất:                5.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/thiet-ke-phan-mem-tong-hop-van-ban
+Nhận chào giá,"
+Cần tuyển Freelancer BigCommerce Developer Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Chuyển Template thành Website 
+
+",,"
+
+Công ty Wsoftpro hiện đang có nhu cầu tuyển dụng freelancer thành thạo nền tảng BigCommerce. Lương bên mình sẽ trả theo hour, rate thoả thuận tuỳ theo năng lực hoặc fixed price. Các bạn có thể truy câp website bên mình để biết thêm chi tiết về công ty: www.wsoftpro.com
+
+","
+
+ID dự án
+37958
+Ngày đăng
+
+                                            10/01/2020, 10:21                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        HR Wsoftpro                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+25/09/2019
+Đã đăng
+
+
+                    47                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        1                    
+",['/freelancer/iq-win-win'],"
+                Trung bình:                3 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/can-tuyen-freelancer-bigcommerce-developer
+Nhận chào giá,"
+Freelancer/team C# cho các dự án lập trình module phần mềm ERP Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+C# , 
+Phần mềm ERP  ","
+
+ASOFT có nhu cầu cộng tác với các team/freelancers có kinh nghiệm về C# winform hoặc webform, thường xuyên nhận dự án về các module phần mềm ERP (bán hàng, bệnh viện, trường học,...) 
+Thu nhập: trên 100 triệu/năm 
+Yêu cầu dự án 
+- Lập trình theo thiết kế và framework được công ty cung cấp sẵn. 
+- Set up sẵn môi trường SQL SERVER lên bản 2017 
+- Đảm bảo tiến độ và chất lượng theo yêu cầu đặt ra 
+Asoft sẽ support thời gian đầu tìm hiểu kỹ thuật thông qua tài liệu và bài tập mẫu. Sau khi đã nắm vững, chúng tôi cam kết chuyển dự án liên tục để các bạn thực hiện. 
+***Vui lòng đính kèm CV để chúng tôi thuận tiện liên hệ
+
+","
+
+ID dự án
+37956
+Ngày đăng
+
+                                            10/01/2020, 08:20                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                100.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Công ty Cổ Phần ASOFT                
+
+
+
+
+
+Tư vấn quản lý và Giải pháp CNTT
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+21/11/2018
+Đã đăng
+
+
+                    18                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/thanh-ho-7', '/freelancer/phan-cong-anh', '/freelancer/pham-minh-cong-3']","
+                Trung bình:                24 ngày
+","
+
+                Thấp nhất:                100.000 VNĐ
+
+|
+
+                Trung bình:                38.366.667 VNĐ
+
+|
+
+                Cao nhất:                100.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/freelancer-team-c-cho-cac-du-an-lap-trinh-module-phan-mem-erp
+Nhận chào giá,"
+Cần 1 bạn ở HCM biết scala Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Cài đặt / Cấu hình server 
+
+","
+Kỹ năng
+
+Java , 
+Javascript  ","
+
+Chào các bạn, 
+Mình cần 1 bạn ở hcm hỗ trợ build 1 dự án scala lên server. 
+Thanks, 
+================= 
+Chào các bạn, 
+Mình cần 1 bạn ở hcm hỗ trợ build 1 dự án scala lên server. 
+Thanks, 
+============
+
+","
+
+ID dự án
+37955
+Ngày đăng
+
+                                            10/01/2020, 07:17                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                5.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hoàng Tùng                
+
+
+
+
+
+web developer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+14/07/2015
+Đã đăng
+
+
+                    59                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/can-1-ban-o-hcm-biet-scala
+Nhận chào giá,"
+Thiet ke websites song ngu và phần quản trị Web bằng tiếng anh Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Chuyển Template thành Website 
+
+","
+Kỹ năng
+
+Tiếng Anh  ","
+
+Cần làm websites bằng tiếng anh, Theo templates nhưng quản lý bên trong tiếng Anh để cho khánh nước ngoài chỉnh sửa Web sau khi bàn giao Web. 
+Can những website template có sẵn bằng tiếng anh để Chào hàng cho kh nước ngoài. 
+Mẫu tham khảo website 
+https://www.globalweb.asia/en/about-us
+
+","
+
+ID dự án
+37953
+Ngày đăng
+
+                                            09/01/2020, 19:05                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                1.500.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Trung Kieu                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+09/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        4                    
+","['/freelancer/hoai-huy-le-nguyen', '/freelancer/le-quoc-viet-1', '/freelancer/luu-ngoc-quang', '/freelancer/soul-the-the-soul-of-the-stone']","
+                Trung bình:                6 ngày
+","
+
+                Thấp nhất:                1.000.000 VNĐ
+
+|
+
+                Trung bình:                2.125.000 VNĐ
+
+|
+
+                Cao nhất:                4.500.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/thiet-ke-websites-song-ngu-va-phan-quan-tri-web-bang-tieng-anh
+Nhận chào giá,"
+Viet webSite Quan ly thanh vien cua cho To chuc -Demo Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+C# , 
+Javascript , 
+Tiếng Anh , 
+code  ","
+
+Viết FrontEnd cho hệ thống từ backend có sẵn tất cả api được bảo về bằng Identityserver 4, có thể thực hiện bằng Angular, React hoặc Blazor ( ưu tiên viết bằng Blazor) 
+logo sẽ được cung cấp , yêu cầu dễ maintain và dễ mở rộng, comment code bằng tiếng anh,. 
+nếu demo tốt có thể hợp tác lâu dài
+
+","
+
+ID dự án
+37952
+Ngày đăng
+
+                                            09/01/2020, 18:55                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hai Pham                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+09/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        4                    
+","['/freelancer/dottp-tech', '/freelancer/huynh-tuan-huy', '/freelancer/nguyen-nhu-hai', '/freelancer/adward-nguyen-1']","
+                Trung bình:                9 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.500.000 VNĐ
+
+|
+
+                Cao nhất:                12.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/viet-website-quan-ly-thanh-vien-cua-cho-to-chuc-demo
+Nhận chào giá,"
+Thiết kế nút search trên bản mobile & floating menu cho wordpress website Đã hoàn thành
+","
+Dịch vụ cần thuê:
+
+
+Thiết kế giao diện website 
+
+","
+Kỹ năng
+
+CSS , 
+HTML , 
+PHP , 
+Wordpress  ","
+
+Mình cần tuỳ biến nút search và tạo floating menu cho bản mobile của trang wordpress. 
+Đưa nút search vào trên file header.php và cho nó response trên bản mobile. 
+Tạo menu chân trang (float menu) và chat icon. 
+Tham khảo bản mockup mình vẽ trong hình đính kèm. 
+Dự án có thể được mở rộng thêm nếu bạn hoàn thành tốt.
+
+","
+
+ID dự án
+37951
+Ngày đăng
+
+                                            09/01/2020, 15:34                                    
+Chỉ còn
+Đã hoàn thành
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                3.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Võ Tự Đức                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+09/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        9                    
+","['/freelancer/le-dinh-ky', '/freelancer/le-quoc-viet-1', '/freelancer/soul-the-the-soul-of-the-stone', '/freelancer/le-manh-hai', '/freelancer/hoang-thien-phuc', '/freelancer/dung-nakedsnake', '/freelancer/nguyen-nhat-hao-1', '/freelancer/huynh-tuan-huy', '/freelancer/nguyen-duy-38']","
+                Trung bình:                4 ngày
+","
+
+                Thấp nhất:                500.000 VNĐ
+
+|
+
+                Trung bình:                1.600.000 VNĐ
+
+|
+
+                Cao nhất:                3.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/thiet-ke-nut-search-tren-ban-mobile-floating-menu-cho-wordpress-website
+Nhận chào giá,"
+Lập trình app cho Bitrix24, Shopify, Magento Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết phần mềm theo yêu cầu 
+
+","
+Kỹ năng
+
+Java , 
+Javascript , 
+Magento , 
+PHP , 
+AngularJS , 
+Shopify  ","
+
+Chào các bạn, hiện công ty mình đang có nhu cầu viết app cho các ứng dụng như Bitrix24, Shopify, Magento để tích hợp với dịch vụ mà công ty mình đang cung cấp. app sẽ sử dụng các api của Bitrix24, Shopify, Magento sau đó kết nối với dịch vụ của công ty mình qua HTTP REST API.
+
+","
+
+ID dự án
+37949
+Ngày đăng
+
+                                            09/01/2020, 14:49                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Dao Xuan Duong                
+
+
+
+
+
+Mobile apps, web apps, desktop apps
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+24/12/2014
+Đã đăng
+
+
+                    6                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/le-dinh-ky', '/freelancer/huynh-tuan-huy']","
+                Trung bình:                16 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/lap-trinh-app-cho-bitrix24-shopify-magento
+Nhận chào giá,"
+Viết backend tích hợp order, inventory, report Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Xử lý dữ liệu 
+
+","
+Kỹ năng
+
+Facebook API , 
+Google Analytics , 
+Google API , 
+Magento , 
+Laravel  ","
+
+Cần xây dựng backend tích hợp order, inventory, report => dữ liệu lấy từ sàn shopee, website magento 
+Report facebook, google 
+Sử dụng framework laravel/lumen viêt API tích hợp tới các sàn, web magento, facebook report, google analytics 
+Chi phí có thể thỏa thuận khi triển khai 
+Liên hệ để trao đổi: https://www.facebook.com/thang.trinhphat.5
+
+","
+
+ID dự án
+37946
+Ngày đăng
+
+                                            09/01/2020, 10:29                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Trịnh Phát Thắng                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+09/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/huynh-tuan-huy', '/freelancer/nguyen-minh-tung-7']","
+                Trung bình:                9 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/viet-backend-tich-hop-order-inventory-report
+Nhận chào giá,"
+Cần 1 bạn ở HCM biết java web Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Cài đặt / Cấu hình server 
+
+","
+Kỹ năng
+
+Java  ","
+
+Chào các bạn, 
+Mình cần 1 bạn ở hcm hỗ trợ build 1 dự án java web lên server. 
+Thanks, 
+================= 
+Chào các bạn, 
+Mình cần 1 bạn ở hcm hỗ trợ build 1 dự án java web lên server. 
+Thanks, 
+==========
+
+","
+
+ID dự án
+37943
+Ngày đăng
+
+                                            09/01/2020, 09:42                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                5.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Hoàng Tùng                
+
+
+
+
+
+web developer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+14/07/2015
+Đã đăng
+
+
+                    59                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/nghiem-quoc', '/freelancer/hung-nguyen-234', '/freelancer/augustino-pham']","
+                Trung bình:                4 ngày
+","
+
+                Thấp nhất:                2.000.000 VNĐ
+
+|
+
+                Trung bình:                4.000.000 VNĐ
+
+|
+
+                Cao nhất:                5.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/can-1-ban-o-hcm-biet-java-web
+Nhận chào giá,"
+Migrate website từ Magento 1 sang Wordpress Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Nhập dữ liệu lên website 
+
+","
+Kỹ năng
+
+Magento , 
+Wordpress , 
+Magestore  ","
+
+Magestore đang tìm kiếm một đối tác để triển khai dự án chuyển đổi website www.magestore.com từ nền tảng thương mại điện tử Magento 1 sang WordPress (WP Engine). 
+Chi tiết về mục tiêu và yêu cầu dự án, các bạn có thể xem file: http://bit.ly/website-magestore-brief
+
+","
+
+ID dự án
+37940
+Ngày đăng
+
+                                            09/01/2020, 08:23                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Hà Nội            
+Ngân sách
+
+                80.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Bruce Nguyen                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Toàn quốc
+Tham gia
+07/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        3                    
+","['/freelancer/le-quoc-viet-1', '/freelancer/tran-van-tuan-11', '/freelancer/dung-nakedsnake']","
+                Trung bình:                29 ngày
+","
+
+                Thấp nhất:                80.000.000 VNĐ
+
+|
+
+                Trung bình:                83.000.000 VNĐ
+
+|
+
+                Cao nhất:                89.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/migrate-website-tu-magento-1-sang-wordpress
+Nhận chào giá,"
+Dựng web membersite khóa học trực tuyến Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Dựng website bán hàng 
+
+","
+Kỹ năng
+
+Lập trình web  ","
+
+Cần bạn dựng web membersite đơn giản thôi không cần quá phức tạp đâu. Có mẫu cho bạn tham khảo 
+Làm theo yêu cầu của mình chỉnh sửa cho phù hợp với nhu cầu. 
+Yêu cầu : 
+Thành thạo lập trình web Có sáng tạo.
+
+","
+
+ID dự án
+37939
+Ngày đăng
+
+                                            08/01/2020, 22:06                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                2.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Dương Việt Anh                
+
+
+
+
+
+CEO
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+12/01/2014
+Đã đăng
+
+
+                    11                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        4                    
+","['/freelancer/soul-the-the-soul-of-the-stone', '/freelancer/nguyen-nhat-hao-1', '/freelancer/le-quoc-viet-1', '/freelancer/dung-nakedsnake']","
+                Trung bình:                6 ngày
+","
+
+                Thấp nhất:                2.000.000 VNĐ
+
+|
+
+                Trung bình:                2.500.000 VNĐ
+
+|
+
+                Cao nhất:                3.500.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/dung-web-membersite-khoa-hoc-truc-tuyen
+Nhận chào giá,"
+Chỉnh sửa Marketplace Website Template trên WordPress Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Xây dựng Web App MVP (Minium Viable Product) 
+
+","
+Kỹ năng
+
+Wordpress , 
+Thiết kế web , 
+Lập trình web , 
+Hợp đồng  ","
+
+Xin chào các bạn dev! 
+Mình đang cần xây dựng 1 website thương mại điện tử giống Airbnb. 
+Template trên WordPress đã mua, chỉ cần chỉnh sửa các tính năng từ template theo yêu cầu (Home page, Map, filter list, kết nối payment gate). 
+Không cần lo về content! Yêu cầu bạn phải rành về thiết kế web trên WordPress (có kinh nghiệm thiết kế Marketplace Website) và ở Sài Gòn. Mình sẽ ngồi làm việc cùng với bạn. Cafe hoặc co-working space. Trả theo hợp đồng (chắc chỉ vài ngày là xong) hoặc làm lâu dài nếu hợp nhau :)
+
+","
+
+ID dự án
+37937
+Ngày đăng
+
+                                            08/01/2020, 18:11                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Ray Nguyen                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Toàn quốc
+Tham gia
+08/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        2                    
+","['/freelancer/trueday', '/freelancer/le-quoc-viet-1']","
+                Trung bình:                5 ngày
+","
+
+                Thấp nhất:                10.000.000 VNĐ
+
+|
+
+                Trung bình:                10.000.000 VNĐ
+
+|
+
+                Cao nhất:                10.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/chinh-sua-marketplace-website-template-tren-wordpress
+Nhận chào giá,"
+Bach Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+Sản xuất hoạt họa  ","
+
+Raymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond LeeRaymond Lee
+
+","
+
+ID dự án
+37936
+Ngày đăng
+
+                                            08/01/2020, 17:05                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                20.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        thanh bạch võ                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+08/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/bach
+Nhận chào giá,"
+Chỉnh sửa một app android đơn giản Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+","
+Kỹ năng
+
+Android  ","
+
+Mình cần chỉnh sửa ứng dụng Droidproxy trên android 5.1.1 chạy noxplayer (có root) sao cho ứng dụng vẫn hoạt động bình thường kể cả khi reboot máy 
+- Link ứng dụng https://github.com/madeye/proxydroid 
+- Link apk https://www.apkmonk.com/app/org.proxydroid/ 
+-Proxy demo 85.209.129.212 Port 80 username fdyhfahi-dest pass miofj5lnpv4w
+
+","
+
+ID dự án
+37935
+Ngày đăng
+
+                                            08/01/2020, 17:05                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                500.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Nhân Nguyễn                
+
+
+
+freelancer
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+Ha Noi
+Tham gia
+22/08/2015
+Đã đăng
+
+
+                    11                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        0                    
+",[],"
+                Trung bình:                0 ngày
+","
+
+                Thấp nhất:                0 VNĐ
+
+|
+
+                Trung bình:                0 VNĐ
+
+|
+
+                Cao nhất:                0 VNĐ
+
+",https://www.vlance.vn/viec-freelance/chinh-sua-mot-app-android-don-gian-1
+Nhận chào giá,"
+Mình cần làm 1 App như LalaMove Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Làm Mobile App theo yêu cầu 
+
+",,"
+
+Mình có cơ hội để các bạn làm App Tương tự lalamove. 
+Vui long cho mình biết thời gian thực hiện. và cách thức làm việc. làm tại nhà/cty bạn hay đến Văn phòng của mình. Có thể tham khảo app giao hàng Lalamove
+
+","
+
+ID dự án
+37933
+Ngày đăng
+
+                                            08/01/2020, 15:59                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                50.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Doan Solutions                
+
+
+
+
+
+Chuyên về Đồ Họa và Quản lý Project
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+15/06/2014
+Đã đăng
+
+
+                    15                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        5                    
+","['/freelancer/quang-dang-tran', '/freelancer/doan-van-loi', '/freelancer/adward-nguyen-1', '/freelancer/nguyen-duong-li-1', '/freelancer/tran-van-tuan-11']","
+                Trung bình:                13 ngày
+","
+
+                Thấp nhất:                50.000.000 VNĐ
+
+|
+
+                Trung bình:                73.000.000 VNĐ
+
+|
+
+                Cao nhất:                125.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/minh-can-lam-1-app-nhu-lalamove
+Nhận chào giá,"
+Hướng dẫn chỉnh sữa website Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Thiết kế giao diện website 
+
+","
+Kỹ năng
+
+CSS , 
+HTML , 
+Java , 
+PHP  ","
+
+hướng dẫn tôi chỉnh sữa php.html.css.java/cpanel, tôi có săn website rồi, để thay đổi giao điện,bố cục, ..... tôi có tri thức cơ bản về thiết kế rồi, đang có website rồi, móng tự chỉnh sữa website, vì front-end và back-end nhiều tương tác với nhau, không dám làm một mình
+
+","
+
+ID dự án
+37932
+Ngày đăng
+
+                                            08/01/2020, 15:59                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                TP. Hồ Chí Minh            
+Ngân sách
+
+                2.500.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Raymond Lee                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+08/01/2020
+Đã đăng
+
+
+                    1                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        9                    
+","['/freelancer/hung-tran-124', '/freelancer/nghiem-quoc', '/freelancer/hoang-ba-tho', '/freelancer/soul-the-the-soul-of-the-stone', '/freelancer/kwang-vu', '/freelancer/nguyen-nhat-hao-1', '/freelancer/pham-van-huy-1218', '/freelancer/vi-nguyen-58', '/freelancer/nguyen-duy-38']","
+                Trung bình:                5 ngày
+","
+
+                Thấp nhất:                1.500.000 VNĐ
+
+|
+
+                Trung bình:                2.555.556 VNĐ
+
+|
+
+                Cao nhất:                4.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/huong-dan-chinh-sua-website
+Nhận chào giá,"
+Làm web-app đơn giản Hết hạn nhận chào giá
+","
+Dịch vụ cần thuê:
+
+
+Viết Mobile App cho web có sẵn 
+
+",,"
+
+Giao diện đơn giản gồm các nút dẫn link đến trang chủ, điền form mẫu để nhận thông tin từ khách hàng, đơn giản nhất có thể. Kết nối tawk.to để hỗ trợ trực tuyến khách hàng. Lên app. Mong có thể hợp tác sớm nhất.
+
+","
+
+ID dự án
+37931
+Ngày đăng
+
+                                            08/01/2020, 15:56                                    
+Chỉ còn
+Hết hạn nhận chào giá
+Địa điểm
+
+                Toàn Quốc            
+Ngân sách
+
+                10.000.000đ                            
+Hình thức làm việc
+
+                                            Làm tại văn phòng                                                                            
+Hình thức trả lương
+
+                                    Trả theo dự án                            
+
+","
+
+
+
+
+
+
+
+
+
+                        Trúc Tiên                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đến từ
+TP. Ho Chi Minh
+Tham gia
+07/01/2020
+Đã đăng
+
+
+                    10                    việc                
+
+
+
+","
+                Chào giá:                                        
+                        8                    
+","['/freelancer/nhan-luong-nguyen', '/freelancer/victo-nguyen', '/freelancer/doan-van-loi', '/freelancer/nguyen-nhat-hao-1', '/freelancer/le-quoc-viet-1', '/freelancer/tuan-thanh-19', '/freelancer/cuong-nguyen-van-11', '/freelancer/tran-van-tuan-11']","
+                Trung bình:                9 ngày
+","
+
+                Thấp nhất:                8.000.000 VNĐ
+
+|
+
+                Trung bình:                9.750.000 VNĐ
+
+|
+
+                Cao nhất:                12.000.000 VNĐ
+
+",https://www.vlance.vn/viec-freelance/lam-web-app-don-gian
