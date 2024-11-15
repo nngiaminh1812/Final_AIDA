@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/vobahoangnhat/University/Term7/AIDA/FinalPrj/Final_AIDA/src",
+      "program": "/Users/vobahoangnhat/University/Term7/AIDA/FinalPrj/Final_AIDA/src/build/Debug/outDebug"
+    }
+  ]
+}
