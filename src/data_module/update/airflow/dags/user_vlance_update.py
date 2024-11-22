@@ -45,7 +45,7 @@ def user_update():
     applicants['Applicants'] = applicants['Applicants'].apply(lambda x: x.replace("'", '') if isinstance(x, str) else x)
     applicants = applicants.reset_index(drop=True)
 
-    df_freelancer = pd.DataFrame(columns=['id', 'id_project', 'title', 'region', 'overview', 'services', 'summary_profile', 'summary_working', 'link'])
+    df = pd.DataFrame(columns=['id', 'id_project', 'title', 'region', 'overview', 'services', 'summary_profile', 'summary_working', 'link'])
     ID_user = []
     ID_project = []
     Title = []
@@ -112,7 +112,7 @@ def user_update():
 
         
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-        id = soup.find('div', attrs={'class':"id_profile"}).text
+        id_user = soup.find('div', attrs={'class':"id_profile"}).text
         ID_user.append(id_user)
 
         # name = soup.find('span', attrs={'itemprop':"name"}).text
