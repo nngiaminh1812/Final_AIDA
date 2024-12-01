@@ -14,6 +14,7 @@ def connect_to_db():
         conn=pymssql.connect(hostname, username, password, database)
     except:
         raise Exception("Connection failed!")
+    print("Connection successful!")
     return conn
 
 def read_sql_query(sql_query):

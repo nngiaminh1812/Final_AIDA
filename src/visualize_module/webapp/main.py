@@ -5,6 +5,15 @@ import os
 import pandas as pd
 from chatbox import send_prompt, establish_api
 from sql_query import read_sql_query
+import sys
+src_path = os.path.abspath(
+    "/run/media/nngiaminh1812/Data/IDA/Final_AIDA/src"
+)
+if src_path not in sys.path:
+    sys.path.append(src_path)
+
+# Import the module
+from models_module.rate_success_bid import predict_bid_success
 
 # Load environment variables from .env file
 load_dotenv()
@@ -156,10 +165,22 @@ def show_conversational_ai():
             else:
                 st.write(f"AI: {message['assistant']}")
 
+def show_bid_success_prediction():
+    st.title("Bid Success Prediction")
+    
+    job_id = st.text_area("Enter Job ID")
+    freelancer_overview = st.text_area("Enter your Overview")
+    freelancer_services = st.text_area("Enter you Services (Skills Offered)")
+    
+    if st.button("Predict Success Rate"):
+        if job_id and freelancer_overview and freelancer_services:
+            success_rate = predict_bid_success(job_id, freelancer_overview, freelancer_services)
+            st.write(f"Predicted Bid Success Rate: {success_rate * 100:.2f}%")
+
 # Main function to control the navigation
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI"])
+    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI", "Rate of Bid Success"])
 
     if page == "Home":
         show_dashboard()
@@ -167,6 +188,8 @@ def main():
         show_introduction()
     elif page == "Ask the AI":
         show_conversational_ai()
+    elif page == "Rate of Bid Success":
+        show_bid_success_prediction()
 
 if __name__ == "__main__":
     main()
