@@ -1,8 +1,15 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 import streamlit as st
 import streamlit.components.v1 as components
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import torch
+from models_module.use_recommend import *
+from models_module.extrack_text import *
+from pypdf import PdfReader
 from chatbox import send_prompt, establish_api
 from sql_query import read_sql_query
 
@@ -157,9 +164,57 @@ def show_conversational_ai():
                 st.write(f"AI: {message['assistant']}")
 
 # Main function to control the navigation
+
+# Hàm đọc text từ file PDF
+def extract_text_from_pdf(file_path):
+    reader = PdfReader(file_path)
+    text = ""
+    for page in reader.pages:
+        text += page.extract_text()
+    return text
+
+# Giao diện Recommend CV
+def show_recommend():
+    st.title("Recommend Jobs from Your CV")
+    
+    uploaded_file = st.file_uploader("Upload your CV (PDF format)", type=["pdf"])
+    if uploaded_file is not None:
+        # Đọc text từ file PDF
+        try:
+            text = extract_text_from_pdf(uploaded_file)
+            st.success("CV uploaded and processed successfully!")
+            # st.write("Extracted text from your CV:")
+            # st.write("EXPERIENCE")
+            # st.text(extract_experience(text))
+            # st.write("SKILL")
+            # st.text(extract_skills(text))
+
+            
+            # Giả sử user_input sẽ được xử lý từ text trong CV
+            user_input = {
+                "skills":   extract_skills(text),
+                "description":extract_experience(text),
+                "budget_min": 10,  
+                "budget_max": 1000
+            }
+            
+            # Tải mô hình và embeddings
+            filepath = "src/models_module/embedded_vector.pkl"
+            df = load_embeddings_from_file(filepath)
+            model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+            
+            # Lấy gợi ý công việc
+            recommendations = recommend_jobs(df, user_input, model)
+            st.write("Here are some jobs that match your CV:")
+            st.dataframe(recommendations)
+
+        except Exception as e:
+            st.error(f"Error processing the file: {e}")
+    else:
+        st.info("Please upload your CV in PDF format.")
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI"])
+    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI", "Recommend you CV"])
 
     if page == "Home":
         show_dashboard()
@@ -167,6 +222,8 @@ def main():
         show_introduction()
     elif page == "Ask the AI":
         show_conversational_ai()
+    elif page == "Recommend you CV":
+        show_recommend()
 
 if __name__ == "__main__":
     main()
