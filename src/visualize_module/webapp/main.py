@@ -182,6 +182,7 @@ def show_recommend():
         # Đọc text từ file PDF
         try:
             text = extract_text_from_pdf(uploaded_file)
+            print(text)
             st.success("CV uploaded and processed successfully!")
             # st.write("Extracted text from your CV:")
             # st.write("EXPERIENCE")
@@ -197,9 +198,10 @@ def show_recommend():
                 "budget_min": 10,  
                 "budget_max": 1000
             }
-            
+            print(extract_skills(text))
+            print(extract_experience(text))
             # Tải mô hình và embeddings
-            filepath = "src/models_module/embedded_vector.pkl"
+            filepath = "../../models_module/embedded_vector.pkl"
             df = load_embeddings_from_file(filepath)
             model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
             

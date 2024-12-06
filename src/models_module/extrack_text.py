@@ -13,7 +13,7 @@ def extract_experience(text):
     
 def extract_summary(text):
     # Sử dụng regex để tìm nội dung dưới phần "Summary"
-    summary_pattern = r"Summary\n(.*?)\nExperience"
+    summary_patternSummary = r"\n(.*?)\nExperience"
     summary = re.search(summary_pattern, text, re.DOTALL)
     if summary:
         return summary.group(1).strip()

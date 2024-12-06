@@ -3,7 +3,36 @@ import numpy as np
 from sentence_transformers import SentenceTransformer, util
 import pickle
 import torch 
+import pymssql 
+from dotenv import load_dotenv
+import os
 
+
+def connect_to_db():
+    load_dotenv(override=True)
+    hostname=os.getenv("HOSTNAME")
+    database=os.getenv("DATABASE")
+    username=os.getenv("USERNAME")
+    password=os.getenv("PASSWORD")
+    
+    print(hostname,database,username,password)
+    try :
+        conn=pymssql.connect(hostname, username, password, database)
+    except:
+        raise Exception("Connection failed!")
+    return conn
+def get_num_bids():
+    conn=connect_to_db()
+    cursor = conn.cursor()
+    query="""
+        select job_id,count(*)
+        from applicants
+        group by job_id 
+    """
+    cursor.execute(query)
+    num_bids = cursor.fetchall()
+    conn.close()
+    return num_bids
 def load_embeddings_from_file(filepath):
     with open(filepath, "rb") as f:
         data = pickle.load(f)
@@ -13,11 +42,6 @@ def recommend_jobs(df, user_input, model, skills_weight=0.5, description_weight=
     user_skills_embedding = model.encode(user_input['skills'], convert_to_tensor=False)
     user_description_embedding = model.encode(user_input['description'], convert_to_tensor=False)
 
-    print(len(user_skills_embedding))  # Kích thước vector
-    print(len(df['skills_embedding'][0])) 
-    print(len(user_description_embedding))  # Kích thước vector
-    print(len(df['description_embedding'][0])) 
-    print(df.columns)
 
     # Compute similarity
     df['skills_similarity'] = df['skills_embedding'].apply(
@@ -39,10 +63,19 @@ def recommend_jobs(df, user_input, model, skills_weight=0.5, description_weight=
         ]
 
     # Sort by total score and return recommendations
-    recommended_jobs = df.sort_values(by='total_score', ascending=False).head(5)
-    return recommended_jobs[[ 'project_id',
+    recommended_jobs = df.sort_values(by='total_score', ascending=False).head(20)
+    
+    
+    # Add number of bids
+    num_bids=get_num_bids()
+    df_num_bids=pd.DataFrame(num_bids,columns=['project_id','num_bids'])
+    # Merge with recommended_jobs
+    recommended_jobs = recommended_jobs.merge(df_num_bids, left_on='project_id', right_on='project_id', how='left')
+    # Remove index 
+    recommended_jobs.reset_index(drop=True, inplace=True)
+    return recommended_jobs[['total_score','num_bids',
          'title', 'services', 'skills', 'description', 
-        'budget_min', 'budget_max', 'total_score', 'url'
+        'budget_min', 'budget_max', 'url'
     ]]
 
 # Tải embedding từ file

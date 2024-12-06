@@ -47,7 +47,7 @@ def save_embeddings_to_file(filepath, df, model):
 
 def build_embeddedvector():
    
-    filepath = "src/models_module/embedded_vector.pkl"
+    filepath = "models_module/embedded_vector.pkl"
     # Thông tin kết nối Azure SQL
     server = 'teamaidaserver.database.windows.net'
     database = 'aida_db'  
