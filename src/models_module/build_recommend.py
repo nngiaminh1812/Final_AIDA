@@ -81,3 +81,11 @@ def build_embeddedvector():
     print("Save embedding vectors to file success!")
 
 
+#  UNLOCK MAIN TO RUN 
+def main():
+    print("Starting the embedding generation process...")
+    build_embeddedvector()
+    print("Process completed successfully!")
+
+if __name__ == "__main__":
+    main()
