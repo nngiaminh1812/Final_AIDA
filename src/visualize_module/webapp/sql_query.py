@@ -4,12 +4,13 @@ import pymssql
 import pandas as pd
 
 def connect_to_db():
-    load_dotenv(dotenv_path="/run/media/nngiaminh1812/Data/IDA/Final_AIDA/src/visualize_module/webapp/.env",override=True)
+    load_dotenv(override=True)
     hostname=os.getenv("HOSTNAME")
     database=os.getenv("DATABASE")
     username=os.getenv("USERNAME")
     password=os.getenv("PASSWORD")
-    # print(hostname,database,username,password)
+    
+    print(hostname,database,username,password)
     try :
         conn=pymssql.connect(hostname, username, password, database)
     except:

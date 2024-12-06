@@ -7,3 +7,8 @@ data/samples_data/*
 
 
 .env
+src/models_module/embedded_vector.pkl
+src/models_module/__pycache__/extrack_text.cpython-310.pyc
+src/visualize_module/webapp/__pycache__/sql_query.cpython-310.pyc
+src/visualize_module/webapp/__pycache__/chatbox.cpython-310.pyc
+src/models_module/__pycache__/use_recommend.cpython-310.pyc

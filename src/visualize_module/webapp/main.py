@@ -1,8 +1,15 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 import streamlit as st
 import streamlit.components.v1 as components
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import torch
+from models_module.use_recommend import *
+from models_module.extrack_text import *
+from pypdf import PdfReader
 from chatbox import send_prompt, establish_api
 from sql_query import read_sql_query
 import sys
@@ -178,9 +185,96 @@ def show_bid_success_prediction():
             st.write(f"Predicted Bid Success Rate: {success_rate * 100:.2f}%")
 
 # Main function to control the navigation
+
+# Hàm đọc text từ file PDF
+def extract_text_from_pdf(file_path):
+    reader = PdfReader(file_path)
+    text = ""
+    for page in reader.pages:
+        text += page.extract_text()
+    return text
+
+
+def show_recommend_utils(jobs_df,num_job_per_page=10):
+
+    total_pages = len(jobs_df) // num_job_per_page + (1 if len(jobs_df) % num_job_per_page > 0 else 0)
+
+    # Nút "Previous" và "Next"
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        if st.button("Previous") and st.session_state.current_page > 0:
+            st.session_state.current_page -= 1
+    with col3:
+        if st.button("Next") and st.session_state.current_page < total_pages - 1:
+            st.session_state.current_page += 1
+            
+     # Tính toán chỉ số của dòng bắt đầu và kết thúc
+    start_row = st.session_state.current_page * num_job_per_page
+    end_row = start_row + num_job_per_page
+
+    # Hiển thị dữ liệu của trang hiện tại
+    st.write(f"Page {st.session_state.current_page + 1} of {total_pages}")
+    st.dataframe(jobs_df.iloc[start_row:end_row])
+    
+# Giao diện Recommend CV
+def show_recommend():
+    st.title("Recommend Jobs from Your CV")
+    
+    uploaded_file = st.file_uploader("Upload your CV (PDF format)", type=["pdf"])
+    if uploaded_file is not None:
+        # Đọc text từ file PDF
+        try:
+            text = extract_text_from_pdf(uploaded_file)
+            print(text)
+            st.success("CV uploaded and processed successfully!")
+            # st.write("Extracted text from your CV:")
+            # st.write("EXPERIENCE")
+            # st.text(extract_experience(text))
+            # st.write("SKILL")
+            # st.text(extract_skills(text))
+
+            
+            # Giả sử user_input sẽ được xử lý từ text trong CV
+            user_input = {
+                "skills":   extract_skills(text),
+                "description":extract_experience(text),
+                "budget_min": 10,  
+                "budget_max": 1000
+            }
+            # Tải mô hình và embeddings
+            filepath = "../../models_module/embedded_vector.pkl"
+            df = load_embeddings_from_file(filepath)
+            model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+            
+            # Lấy gợi ý công việc
+            recommendations = recommend_jobs(df, user_input, model)
+            st.write("Here are some jobs that match your CV:")
+            if 'current_page' not in st.session_state:
+                st.session_state['current_page'] = 0
+            num_job_per_page=10
+            total_pages = len(recommendations) // num_job_per_page + (1 if len(recommendations) % num_job_per_page > 0 else 0)
+
+                
+            # Tính toán chỉ số của dòng bắt đầu và kết thúc
+            start_row = st.session_state.current_page * num_job_per_page
+            end_row = start_row + num_job_per_page
+            st.dataframe(recommendations.iloc[start_row:end_row])
+            
+            # Nút "Previous" và "Next"
+            col1, col2, col3,col4 = st.columns([4.5, 3, 3,3])
+            with col2:
+                if st.button("Previous") and st.session_state.current_page > 0:
+                    st.session_state.current_page -= 1
+            with col3:
+                if st.button("Next") and st.session_state.current_page < total_pages - 1:
+                    st.session_state.current_page += 1
+        except Exception as e:
+            st.error(f"Error processing the file: {e}")
+    else:
+        st.info("Please upload your CV in PDF format.")
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI", "Rate of Bid Success"])
+    page = st.sidebar.radio("Go to", ["Home", "Introduction", "Ask the AI", "Recommend you CV", "Rate of Bid Success"])
 
     if page == "Home":
         show_dashboard()
@@ -190,6 +284,8 @@ def main():
         show_conversational_ai()
     elif page == "Rate of Bid Success":
         show_bid_success_prediction()
+    elif page == "Recommend you CV":
+        show_recommend()
 
 if __name__ == "__main__":
     main()
