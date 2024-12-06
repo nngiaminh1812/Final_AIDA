@@ -173,6 +173,28 @@ def extract_text_from_pdf(file_path):
         text += page.extract_text()
     return text
 
+
+def show_recommend_utils(jobs_df,num_job_per_page=10):
+
+    total_pages = len(jobs_df) // num_job_per_page + (1 if len(jobs_df) % num_job_per_page > 0 else 0)
+
+    # Nút "Previous" và "Next"
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        if st.button("Previous") and st.session_state.current_page > 0:
+            st.session_state.current_page -= 1
+    with col3:
+        if st.button("Next") and st.session_state.current_page < total_pages - 1:
+            st.session_state.current_page += 1
+            
+     # Tính toán chỉ số của dòng bắt đầu và kết thúc
+    start_row = st.session_state.current_page * num_job_per_page
+    end_row = start_row + num_job_per_page
+
+    # Hiển thị dữ liệu của trang hiện tại
+    st.write(f"Page {st.session_state.current_page + 1} of {total_pages}")
+    st.dataframe(jobs_df.iloc[start_row:end_row])
+    
 # Giao diện Recommend CV
 def show_recommend():
     st.title("Recommend Jobs from Your CV")
@@ -198,8 +220,6 @@ def show_recommend():
                 "budget_min": 10,  
                 "budget_max": 1000
             }
-            print(extract_skills(text))
-            print(extract_experience(text))
             # Tải mô hình và embeddings
             filepath = "../../models_module/embedded_vector.pkl"
             df = load_embeddings_from_file(filepath)
@@ -208,8 +228,25 @@ def show_recommend():
             # Lấy gợi ý công việc
             recommendations = recommend_jobs(df, user_input, model)
             st.write("Here are some jobs that match your CV:")
-            st.dataframe(recommendations)
+            if 'current_page' not in st.session_state:
+                st.session_state['current_page'] = 0
+            num_job_per_page=10
+            total_pages = len(recommendations) // num_job_per_page + (1 if len(recommendations) % num_job_per_page > 0 else 0)
 
+                
+            # Tính toán chỉ số của dòng bắt đầu và kết thúc
+            start_row = st.session_state.current_page * num_job_per_page
+            end_row = start_row + num_job_per_page
+            st.dataframe(recommendations.iloc[start_row:end_row])
+            
+            # Nút "Previous" và "Next"
+            col1, col2, col3,col4 = st.columns([4.5, 3, 3,3])
+            with col2:
+                if st.button("Previous") and st.session_state.current_page > 0:
+                    st.session_state.current_page -= 1
+            with col3:
+                if st.button("Next") and st.session_state.current_page < total_pages - 1:
+                    st.session_state.current_page += 1
         except Exception as e:
             st.error(f"Error processing the file: {e}")
     else:

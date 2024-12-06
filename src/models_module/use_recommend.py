@@ -63,7 +63,7 @@ def recommend_jobs(df, user_input, model, skills_weight=0.5, description_weight=
         ]
 
     # Sort by total score and return recommendations
-    recommended_jobs = df.sort_values(by='total_score', ascending=False).head(20)
+    recommended_jobs = df.sort_values(by='total_score', ascending=False)
     
     
     # Add number of bids
