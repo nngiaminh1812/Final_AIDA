@@ -1,0 +1,129 @@
+[2024-11-14T20:22:16.218+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-14T20:22:16.224+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T13:22:13.029249+00:00 [queued]>
+[2024-11-14T20:22:16.229+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T13:22:13.029249+00:00 [queued]>
+[2024-11-14T20:22:16.229+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-14T20:22:16.238+0700] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): update_vlance_jobs> on 2024-11-14 13:22:13.029249+00:00
+[2024-11-14T20:22:16.241+0700] {standard_task_runner.py:72} INFO - Started process 163640 to run task
+[2024-11-14T20:22:16.243+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_vlance_dag', 'update_vlance_jobs', 'manual__2024-11-14T13:22:13.029249+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/ETL_vlance.py', '--cfg-path', '/tmp/tmp63k9jhvi']
+[2024-11-14T20:22:16.244+0700] {standard_task_runner.py:105} INFO - Job 19: Subtask update_vlance_jobs
+[2024-11-14T20:22:16.266+0700] {task_command.py:467} INFO - Running <TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T13:22:13.029249+00:00 [running]> on host fedora
+[2024-11-14T20:22:16.309+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='etl_vlance_dag' AIRFLOW_CTX_TASK_ID='update_vlance_jobs' AIRFLOW_CTX_EXECUTION_DATE='2024-11-14T13:22:13.029249+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-14T13:22:13.029249+00:00'
+[2024-11-14T20:22:16.310+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-14T20:22:16.321+0700] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-14T20:22:16.322+0700] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/bin/python /home/nngiaminh1812/airflow/dags/vlance_update.py']
+[2024-11-14T20:22:16.329+0700] {subprocess.py:99} INFO - Output:
+[2024-11-14T20:23:03.094+0700] {subprocess.py:106} INFO - Solve captcha manually...............
+[2024-11-14T20:23:03.095+0700] {subprocess.py:106} INFO - Traceback (most recent call last):
+[2024-11-14T20:23:03.095+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/airflow/dags/vlance_update.py", line 305, in <module>
+[2024-11-14T20:23:03.104+0700] {subprocess.py:106} INFO -     update_vlance_jobs("qn9965mh@gmail.com","123456asd*")
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/airflow/dags/vlance_update.py", line 30, in update_vlance_jobs
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -     submit_button.click()
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -     self._execute(Command.CLICK_ELEMENT)
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -     return self._parent.execute(command, params)
+[2024-11-14T20:23:03.105+0700] {subprocess.py:106} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 380, in execute
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO -     self.error_handler.check_response(response)
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO -     raise exception_class(message, screen, stacktrace)
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO - selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type="button" id="btn-submit-login-header" name="_submit" class="btn btn-large btn-primary">...</button> is not clickable at point (600, 457). Other element would receive the click: <iframe title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa" name="c-m2axssng37bf" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=-ZG7BC9TxCVEbzIO2m429usb&amp;k=6Lf5o40aAAAAAOO9wf5vArKkHkEN6WRdq853oZcb" style="width: 400px; height: 580px;"></iframe>
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO -   (Session info: chrome=130.0.6723.116)
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO - Stacktrace:
+[2024-11-14T20:23:03.106+0700] {subprocess.py:106} INFO - #0 0x5651f1e816da <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #1 0x5651f1995f80 <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #2 0x5651f19e96e6 <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #3 0x5651f19e766d <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #4 0x5651f19e5117 <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #5 0x5651f19e4531 <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #6 0x5651f19d7b28 <unknown>
+[2024-11-14T20:23:03.107+0700] {subprocess.py:106} INFO - #7 0x5651f1a06bb2 <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #8 0x5651f19d7508 <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #9 0x5651f1a06d7e <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #10 0x5651f1a2569d <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #11 0x5651f1a06953 <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #12 0x5651f19d572e <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #13 0x5651f19d679e <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #14 0x5651f1e4cf1b <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #15 0x5651f1e50eb8 <unknown>
+[2024-11-14T20:23:03.108+0700] {subprocess.py:106} INFO - #16 0x5651f1e3a42c <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #17 0x5651f1e51a37 <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #18 0x5651f1e1efef <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #19 0x5651f1e6fad8 <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #20 0x5651f1e6fca0 <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #21 0x5651f1e80556 <unknown>
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #22 0x7f07867341b7 start_thread
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - #23 0x7f07867b639c __clone3
+[2024-11-14T20:23:03.109+0700] {subprocess.py:106} INFO - 
+[2024-11-14T20:23:03.414+0700] {subprocess.py:110} INFO - Command exited with return code 1
+[2024-11-14T20:23:03.423+0700] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-14T20:23:03.432+0700] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_vlance_dag, task_id=update_vlance_jobs, run_id=manual__2024-11-14T13:22:13.029249+00:00, execution_date=20241114T132213, start_date=20241114T132216, end_date=20241114T132303
+[2024-11-14T20:23:03.449+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-14T20:23:03.449+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 19 for task update_vlance_jobs (Bash command failed. The command returned a non-zero exit code 1.; 163640)
+Traceback (most recent call last):
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-14T20:23:03.460+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-14T20:23:03.469+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-14T20:23:03.469+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

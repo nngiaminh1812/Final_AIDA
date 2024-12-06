@@ -1,0 +1,149 @@
+[2024-11-14T21:57:43.510+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-14T21:57:43.571+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T14:47:01.767897+00:00 [queued]>
+[2024-11-14T21:57:43.575+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T14:47:01.767897+00:00 [queued]>
+[2024-11-14T21:57:43.575+0700] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-11-14T21:57:43.585+0700] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): update_vlance_jobs> on 2024-11-14 14:47:01.767897+00:00
+[2024-11-14T21:57:43.588+0700] {standard_task_runner.py:72} INFO - Started process 169756 to run task
+[2024-11-14T21:57:43.590+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_vlance_dag', 'update_vlance_jobs', 'manual__2024-11-14T14:47:01.767897+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/ETL_vlance.py', '--cfg-path', '/tmp/tmp6m93b7y5']
+[2024-11-14T21:57:43.591+0700] {standard_task_runner.py:105} INFO - Job 24: Subtask update_vlance_jobs
+[2024-11-14T21:57:43.611+0700] {task_command.py:467} INFO - Running <TaskInstance: etl_vlance_dag.update_vlance_jobs manual__2024-11-14T14:47:01.767897+00:00 [running]> on host fedora
+[2024-11-14T21:57:43.656+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='etl_vlance_dag' AIRFLOW_CTX_TASK_ID='update_vlance_jobs' AIRFLOW_CTX_EXECUTION_DATE='2024-11-14T14:47:01.767897+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-14T14:47:01.767897+00:00'
+[2024-11-14T21:57:43.656+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-14T21:57:43.668+0700] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-14T21:57:43.669+0700] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/bin/python /home/nngiaminh1812/airflow/dags/vlance_update.py']
+[2024-11-14T21:57:43.675+0700] {subprocess.py:99} INFO - Output:
+[2024-11-14T21:59:46.950+0700] {subprocess.py:106} INFO - Traceback (most recent call last):
+[2024-11-14T21:59:46.951+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+[2024-11-14T21:59:46.952+0700] {subprocess.py:106} INFO -     response = conn.getresponse()
+[2024-11-14T21:59:46.952+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.953+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connection.py", line 507, in getresponse
+[2024-11-14T21:59:46.954+0700] {subprocess.py:106} INFO -     httplib_response = super().getresponse()
+[2024-11-14T21:59:46.954+0700] {subprocess.py:106} INFO -                        ^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.955+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/lib/python3.11/http/client.py", line 1374, in getresponse
+[2024-11-14T21:59:46.955+0700] {subprocess.py:106} INFO -     response.begin()
+[2024-11-14T21:59:46.955+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/lib/python3.11/http/client.py", line 318, in begin
+[2024-11-14T21:59:46.955+0700] {subprocess.py:106} INFO -     version, status, reason = self._read_status()
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -                               ^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/lib/python3.11/http/client.py", line 279, in _read_status
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/lib/python3.11/socket.py", line 705, in readinto
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -     return self._sock.recv_into(b)
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO - TimeoutError: timed out
+[2024-11-14T21:59:46.956+0700] {subprocess.py:106} INFO - 
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO - The above exception was the direct cause of the following exception:
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO - 
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO - Traceback (most recent call last):
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/airflow/dags/vlance_update.py", line 305, in <module>
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -     update_vlance_jobs("qn9965mh@gmail.com","123456asd*")
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/airflow/dags/vlance_update.py", line 15, in update_vlance_jobs
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -     driver.get("https://www.vlance.vn/#")
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 389, in get
+[2024-11-14T21:59:46.957+0700] {subprocess.py:106} INFO -     self.execute(Command.GET, {"url": url})
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 378, in execute
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -     response = self.command_executor.execute(driver_command, params)
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/remote_connection.py", line 391, in execute
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -     return self._request(command_info[0], url, body=data)
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/selenium/webdriver/remote/remote_connection.py", line 415, in _request
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -     response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.958+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/_request_methods.py", line 143, in request
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -     return self.request_encode_body(
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -     return self.urlopen(method, url, **extra_kw)
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -     response = conn.urlopen(method, u.request_uri, **kw)
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+[2024-11-14T21:59:46.959+0700] {subprocess.py:106} INFO -     retries = retries.increment(
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -               ^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/util/retry.py", line 474, in increment
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -     raise reraise(type(error), error, _stacktrace)
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -     raise value
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -     response = self._make_request(
+[2024-11-14T21:59:46.960+0700] {subprocess.py:106} INFO -                ^^^^^^^^^^^^^^^^^^^
+[2024-11-14T21:59:46.961+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+[2024-11-14T21:59:46.961+0700] {subprocess.py:106} INFO -     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+[2024-11-14T21:59:46.961+0700] {subprocess.py:106} INFO -   File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 369, in _raise_timeout
+[2024-11-14T21:59:46.961+0700] {subprocess.py:106} INFO -     raise ReadTimeoutError(
+[2024-11-14T21:59:46.961+0700] {subprocess.py:106} INFO - urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=37589): Read timed out. (read timeout=120)
+[2024-11-14T21:59:57.035+0700] {subprocess.py:110} INFO - Command exited with return code 1
+[2024-11-14T21:59:57.041+0700] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-14T21:59:57.044+0700] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_vlance_dag, task_id=update_vlance_jobs, run_id=manual__2024-11-14T14:47:01.767897+00:00, execution_date=20241114T144701, start_date=20241114T145743, end_date=20241114T145957
+[2024-11-14T21:59:57.063+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-14T21:59:57.063+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 24 for task update_vlance_jobs (Bash command failed. The command returned a non-zero exit code 1.; 169756)
+Traceback (most recent call last):
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nngiaminh1812/.pyenv/versions/3.11.0/envs/airflow_env/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-14T21:59:57.095+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-14T21:59:57.107+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-14T21:59:57.111+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
