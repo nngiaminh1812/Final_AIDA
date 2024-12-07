@@ -16,9 +16,9 @@ from visualize_module.webapp.sql_query import connect_to_db
 
 model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 # Function to get data from the database
-def get_data_from_db(job_id):
+def get_data_from_db(job_url):
     conn = connect_to_db()
-    sql_query = f"SELECT DESCRIPTION, SERVICES, SKILLS FROM jobs WHERE PROJECT_ID={job_id}"
+    sql_query = f"SELECT DESCRIPTION, SERVICES, SKILLS FROM jobs WHERE URL='{job_url}'"
     df = pd.read_sql(sql_query, conn)
     description = df['DESCRIPTION'].iloc[0]
     services = df['SERVICES'].iloc[0]
@@ -35,9 +35,9 @@ def get_data_from_db(job_id):
     return combined_text
 
 # Function to predict bid success rate based on sentence similarity
-def predict_bid_success(job_id, freelancer_overview, freelancer_services):
+def predict_bid_success(job_url, freelancer_overview, freelancer_services):
     # Combine the freelancer's overview and services
-    job_in4 = get_data_from_db(job_id)
+    job_in4 = get_data_from_db(job_url)
     freelancer_text = freelancer_overview + " " + freelancer_services
     
     # Encode the job description and freelancer text using the SentenceTransformer model

@@ -75,11 +75,19 @@ ai_prompt = ["""
 	[EXPERIENCE] [nvarchar](255) NULL,
 	[URL] [varchar](2083) NULL
              
+        Table 3: applicants
+    (   [JOB_ID] [int] NOT NULL,
+	    [BID_ID] [int] NOT NULL,
+	    [SOURCE] [varchar](255) NOT NULL
+    )   ON [PRIMARY]
+        
+        BID_ID of table applicants is USER_ID of table users.
         Specifically, column Skills contains value which is a string for example :PHP,CodeIgniter,Shopee,Tiktok Shop. If you use Skills column, you must explode it first by ","
         Please provide an English question related to this table, and I'll help you generate the corresponding Microsoft SQL Server query.
         Return a Microsoft SQL Server query with no ''' at head and tail.
         Also, the Microsoft SQL Server code should not have ``` in the beginning or end and the Microsoft SQL Server word in the output.
         Last, just return Microsoft SQL Server query only. "SELECT............." and forbid use of "LIMIT" in the end of your query.
+        Use TOP instead of LIMIT.
         """]
 
 # Function to display the Tableau dashboard
@@ -175,13 +183,13 @@ def show_conversational_ai():
 def show_bid_success_prediction():
     st.title("Bid Success Prediction")
     
-    job_id = st.text_area("Enter Job ID")
+    job_url = st.text_area("Enter Job URL")
     freelancer_overview = st.text_area("Enter your Overview")
     freelancer_services = st.text_area("Enter you Services (Skills Offered)")
     
     if st.button("Predict Success Rate"):
-        if job_id and freelancer_overview and freelancer_services:
-            success_rate = predict_bid_success(job_id, freelancer_overview, freelancer_services)
+        if job_url and freelancer_overview and freelancer_services:
+            success_rate = predict_bid_success(job_url, freelancer_overview, freelancer_services)
             st.write(f"Predicted Bid Success Rate: {success_rate * 100:.2f}%")
 
 # Main function to control the navigation
